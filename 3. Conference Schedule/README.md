@@ -13,7 +13,7 @@ Using 0-based indexing, an attendee could attend any presentation alone, or both
 
 Complete the function _maxPresentations_ in the editor below.
 
-maxPresentations has the following parameter(s)：
+maxPresentations has the following parameter(s)：  
 &emsp;&emsp;_scheduleStart[n]_：the start times of presentation _i_
 &emsp;&emsp;scheduleEnd[n]：the end times of presentation _i_
 
