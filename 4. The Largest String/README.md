@@ -13,8 +13,8 @@ The largest string, alphabetically, is '_cccba_' but it is not allowed because i
 
 Complete the function _getLargestString_ in the editor below.
 
-getLargestString has the following parameters：
-&emsp;&emsp;string _s[n]_：the original string
+getLargestString has the following parameters：  
+&emsp;&emsp;string _s[n]_：the original string  
 &emsp;&emsp;int _k_：the maximum number of identical consecutive characters the new string can have
 
 Returns：  
