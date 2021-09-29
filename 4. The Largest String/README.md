@@ -4,7 +4,7 @@ Given a string, construct a new string by rearranging the original string and de
 
 ## Example
 
-_s = 'baccc'_
+_s = 'baccc'_  
 _k = 2_
 
 The largest string, alphabetically, is '_cccba_' but it is not allowed because it uses the character '_c_' more than 2 times consecutively. Therefore, the answer is '_ccbca_'.
