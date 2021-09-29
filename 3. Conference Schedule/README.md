@@ -4,7 +4,7 @@ A schedule has just been released for an upcoming tech conference. The schedule 
 
 ## Example
 
-_n = 3  
+_n = 3_  
 _scheduleStart = [1, 1, 2]
 scheduleEnd = [3, 2, 4]_
 Using 0-based indexing, an attendee could attend any presentation alone, or both presentations _1_ and _2_. Presentation _0_ ends too late to be able to attend presentation _2_ afterwards. The maximum number of presentations one person can attend is _2_.
