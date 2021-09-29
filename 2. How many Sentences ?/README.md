@@ -18,8 +18,8 @@ Determine that _listen_ is an anagram of _silent_. Those two words can be replac
 
 Complete the _countSentences_ function in the editor below.
 
-countSentences has the following parameters：
-&emsp;&emsp;_string wordSet[n]_：an array of strings
+countSentences has the following parameters：  
+&emsp;&emsp;_string wordSet[n]_：an array of strings  
 &emsp;&emsp;_string sentences[m]_：an array of strings
 
 Returns：  
