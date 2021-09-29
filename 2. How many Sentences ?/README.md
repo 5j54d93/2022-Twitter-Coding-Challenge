@@ -36,32 +36,58 @@ Returns：
 
 Input from stdin will be processed and passed to the function as follows：
 
-The first line contains an integer _n_ denoting the number of elements in wordSet/].
-Each of the next nlines contains a string wordSetfi.
-The next line contains an integer m denoting the number of elements in sentences/[].
-Each of the next m lines contains a string sentences[i] made up of a number of words separated
-by spaces.
-v Sample Case 0
-Sample Input
-STDIN Function
-6 > wordSet[] size n = 6
-the > wordSet = ['the', 'bats', 'tabs', 'in', 'cat', 'act']
+The first line contains an integer _n_ denoting the number of elements in _wordSet[]_.  
+Each of the next _n_ lines contains a string _wordSet[i]_.  
+The next line contains an integer _m_ denoting the number of elements in _sentences[]_.  
+Each of the next _m_ lines contains a string _sentences[i]_ made up of a number of words separated by spaces.
+
+## Sample Case 0
+
+### Sample Input
+
+```
+STDIN            Function
+-----            --------
+6             →  wordSet[] size n = 6
+the           →  wordSet = ['the', 'bats', 'tabs', 'in', 'cat', 'act']
 bats
 tabs
 in
 cat
 act
-3 > sentences[] size m = 3
-cat the bats > sentences = ['cat the bats', 'in the act', ‘act tabs in']
+3             →  sentences[] size m = 3
+cat the bats  →  sentences = ['cat the bats', 'in the act', ‘act tabs in']
 in the act
 act tabs in
-Sample Output
+```
+
+### Sample Output
+
+```
 4
 2
 4
-Explanation
-Sentence 7: For the sentence 'cat the bats’, the sentences that can be formed are:
-e cat the bats
-e act the bats
-e cat the tabs
-e act the tabs
+```
+
+### Explanation
+
+_Sentence 1_：For the sentence _'cat the bats'_, the sentences that can be formed are：
+
+- cat the bats
+- act the bats
+- cat the tabs
+- act the tabs
+
+_Sentence 2_：For the sentence _'in the act'_, the sentences that can be formed are：
+
+- in the act
+- in the cat
+
+_Sentence 3_：For the sentence _'act tabs in'_, the sentences that can be formed are：
+
+- act tabs in
+- cat tabs in
+- act bats in
+- cat bats in
+
+Therefore, the integer array returned is [4, 2, 4].
