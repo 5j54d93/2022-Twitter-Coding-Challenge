@@ -1,6 +1,5 @@
 # 2022 Twitter Early Career Engineering Coding Challenge
 
-[![CI](https://github.com/5j54d93/Twitter-Coding-Challenge/actions/workflows/blank.yml/badge.svg)](https://github.com/5j54d93/Twitter-Coding-Challenge/actions/workflows/blank.yml)
 [![GitHub license](https://img.shields.io/github/license/5j54d93/Twitter-Coding-Challenge)](https://github.com/5j54d93/Twitter-Coding-Challenge/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/5j54d93/Twitter-Coding-Challenge)](https://github.com/5j54d93/Twitter-Coding-Challenge/stargazers)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Twitter-Coding-Challenge)
